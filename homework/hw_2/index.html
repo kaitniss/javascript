@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HomeWork: lesson 1.2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>HomeWork: lesson 1.2</h1>
+            <h2>FirstName: Elliot</h2>
+            <h2>LastName: Esina</h2>
+        </div>
+    </header>
+    <section class="tasks">
+        <div class="container">
+            <div class="task task__info">
+                <h3 class="task__number">Task 1</h3>
+                <p class="task__description">
+                    1.1. Необходимо создать информацию о себе, используя переменные, в которых будет: <br>
+                    - ваше имя,<br>
+                    - ваш возраст,<br>
+                    - поле с вашим статусом о семейном положении, замужем/женаты (Либо истина , либо ложь),<br>
+                    - по аналогии с предыдущим, поле с детьми.
+                </p>
+                <p class="task__description">
+                    1.2. Также необходимо определить тип данных
+                    всех ваших полей и вывести результат в консоль
+                </p>
+            </div>
+            <div class="answer">
+                <h4 class="answer__title">Решение:</h4>
+                <p class="answer__content">Нажми на кнопку, чтобы познакомиться)</p>
+                <button class="btn" onclick="meet(myInfo)">Обо мне </button>
+                <p class="answer__content" id="person"></p>
+            </div>
+            <div class="task task__calc">
+                <h3 class="task__number">Task 2</h3>
+                <p class="task__description">Напишите скрипт, который находит площадь прямоугольника
+                    <br>- высота 23см,
+                    <br>- шириной 10см
+                </p>
+            </div>
+            <div class="answer">
+                <h4 class="answer__title">Решение:</h4>
+                <p class="answer__content">Нажми на кнопку для начала расчета площади прямоугольника.</p>
+                <button class="btn" onclick="calc(rectangle, area)">Рассчитать</button>
+                <p class="answer__content" id="a"></p>
+            </div>
+            <div class="task task__calc">
+                <h3 class="task__number">Task 3</h3>
+                <p class="task__description">Напиши скрипт, который находит объем цилиндра
+                <br>- высота 10м,
+                <br>- площадь основания 4м
+                </p>
+            </div>
+            <div class="answer">
+                <h4 class="answer__title">Решение:</h4>
+                <p class="answer__content">Нажми на кнопку для расчета объем цилиндра.</p>
+                <button class="btn" onclick="calc(cylinder, capacity)">Рассчитать</button>
+                <p class="answer__content" id="c"></p>
+            </div>
+            <div class="task task__think">
+                <h3 class="task__number">Task 4</h3>
+                <p class="task__description">
+                    Напиши рядом с каждым выражением , тот ответ который по вашему мнению выведет console.<br>
+                    И потом сравните ваш результат с тем что на самом деле вывела консоль.
+                </p>
+                <ul class="expressions task__description">
+                    <li class="expression">Infinity - "1"</li>
+                    <li class="expression">"42" + 42</li>
+                    <li class="expression">2 + "1 1"</li>
+                    <li class="expression">99 + 101</li>
+                    <li class="expression">"1" - "1"</li>
+                    <li class="expression">"Result: " + 10/2</li>
+                    <li class="expression">"3 + " bananas " + 2 + " apples "</li>
+                </ul>
+            </div>
+            <div class="answer">
+                <h4 class="answer__title">Решение:</h4>
+                <ol class="expressions answer__content" type="1" value="1">
+                    <li class="expression">Infinity - "1" => Infinity - максимально положительное число, почти при
+                                           любых
+                                           операциях, кроме
+                                           деления 1 на
+                                           infinity мы получаем его же.</li>
+                    <li class="expression">"42" + 42 => 4242 - строка, второе число приведется к строчному типу и
+                                           случится конкотинация</li>
+                    <li class="expression">2 + "1 1" => 21 1 - строка, первое число приведется к строчному типу и
+                                           случится конкотинация в 21 пробел и 1 наследуютмся из переменной-строки </li>
+                    <li class="expression">99 + 101 => оба типа numbers, складываем = 200</li>
+                    <li class="expression">"1" - "1" => строка и вычитание превращает переменные в numbers, = 0 </li>
+                    <li class="expression">"Result: " + 10/2 =>Result: 5, сначала произойдет математическая операция,
+                                           затем число 5 преобразуется в строку и приклеится к результату
+                    </li>
+                    <li class="expression"> 3 + " bananas " + 2 + " apples " => все по порядку склеивается в
+                                            строку, числа при сложении со строками преобразуются в строки. 3
+                                            bananas 2 apples </li>
+                </ol>
+                
+                <p class="answer__content">
+                    Нажми на кнопку, чтобы вывести логи в консоль
+                </p>
+               <button class="btn" onclick="check()">Проверить</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer__text">
+                    ©WayUp (HomeTask)
+                </p>
+                <p class="footer__text">
+                    HW 1.2 by Elliot Esina
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
