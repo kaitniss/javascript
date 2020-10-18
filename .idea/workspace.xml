@@ -15,7 +15,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="141ebf5d-21d4-421a-9bca-5923d6efe646" name="Default Changelist" comment="first commit" />
+    <list default="true" id="141ebf5d-21d4-421a-9bca-5923d6efe646" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/homework/hw_4/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +34,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:kaitniss/wayup_js.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1gQVRqmAVAj21RvGOAgx3zcPMgw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -136,7 +146,7 @@
       <workItem from="1599425375294" duration="364000" />
       <workItem from="1602910671682" duration="57000" />
       <workItem from="1602910729331" duration="17647000" />
-      <workItem from="1602977925138" duration="1114000" />
+      <workItem from="1602977925138" duration="2942000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1599086863729</created>
@@ -152,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603012425301</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1603012459638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603012459638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,10 +205,11 @@
       <screen x="-1680" y="23" width="1680" height="1027" />
     </state>
     <state x="-704" y="334" key="#Notifications/0.23.2560.1362/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1599087018664" />
-    <state x="2075" y="240" key="#Web_Browsers" timestamp="1602972425939">
+    <state x="2075" y="240" key="#Web_Browsers" timestamp="1603012538704">
       <screen x="1440" y="-36" width="2560" height="1057" />
     </state>
     <state x="2075" y="240" key="#Web_Browsers/1440.-36.2560.1057/0.23.1440.823@1440.-36.2560.1057" timestamp="1602972425939" />
+    <state x="2075" y="240" key="#Web_Browsers/1440.-36.2560.1057/0.23.1440.826@1440.-36.2560.1057" timestamp="1603012538704" />
     <state x="1562" y="118" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602946620835">
       <screen x="1440" y="-36" width="2560" height="1057" />
     </state>
@@ -206,10 +224,11 @@
       <screen x="1440" y="-36" width="2560" height="1057" />
     </state>
     <state x="2064" y="330" key="Github.CreatePullRequestDialog/1440.-36.2560.1057/0.23.1440.823@1440.-36.2560.1057" timestamp="1602972504630" />
-    <state x="2155" y="365" key="Github.ShareDialog" timestamp="1602972402522">
+    <state x="2155" y="365" key="Github.ShareDialog" timestamp="1603012529770">
       <screen x="1440" y="-36" width="2560" height="1057" />
     </state>
     <state x="2155" y="365" key="Github.ShareDialog/1440.-36.2560.1057/0.23.1440.823@1440.-36.2560.1057" timestamp="1602972402522" />
+    <state x="2155" y="365" key="Github.ShareDialog/1440.-36.2560.1057/0.23.1440.826@1440.-36.2560.1057" timestamp="1603012529770" />
     <state width="1632" height="191" key="GridCell.Tab.0.bottom" timestamp="1602976382297">
       <screen x="1440" y="-36" width="2560" height="1057" />
     </state>
@@ -322,18 +341,21 @@
       <screen x="1440" y="-36" width="2560" height="1057" />
     </state>
     <state x="1785" y="101" key="SettingsEditor/1440.-36.2560.1057/0.23.1440.823@1440.-36.2560.1057" timestamp="1602972237785" />
-    <state x="-965" y="197" key="Vcs.Push.Dialog.v2" timestamp="1599086868750">
-      <screen x="-1680" y="23" width="1680" height="1027" />
+    <state x="2530" y="143" key="Vcs.Push.Dialog.v2" timestamp="1603012461938">
+      <screen x="1440" y="-36" width="2560" height="1057" />
     </state>
     <state x="-965" y="197" key="Vcs.Push.Dialog.v2/0.23.2560.1362/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1599086868750" />
-    <state x="-773" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599086816513">
-      <screen x="-1680" y="23" width="1680" height="1027" />
+    <state x="2530" y="143" key="Vcs.Push.Dialog.v2/1440.-36.2560.1057/0.23.1440.826@1440.-36.2560.1057" timestamp="1603012461938" />
+    <state x="2822" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603012364906">
+      <screen x="1440" y="-36" width="2560" height="1057" />
     </state>
     <state x="-773" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1362/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1599086816513" />
-    <state x="2047" y="319" key="git4idea.rebase.GitRebaseDialog" timestamp="1603012079971">
+    <state x="2822" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.-36.2560.1057/0.23.1440.826@1440.-36.2560.1057" timestamp="1603012364906" />
+    <state x="2047" y="319" key="git4idea.rebase.GitRebaseDialog" timestamp="1603013650907">
       <screen x="1440" y="-36" width="2560" height="1057" />
     </state>
     <state x="2047" y="319" key="git4idea.rebase.GitRebaseDialog/1440.-36.2560.1057/0.23.1440.823@1440.-36.2560.1057" timestamp="1602972783470" />
+    <state x="2047" y="319" key="git4idea.rebase.GitRebaseDialog/1440.-36.2560.1057/0.23.1440.826@1440.-36.2560.1057" timestamp="1603013650907" />
     <state x="2047" y="319" key="git4idea.rebase.GitRebaseDialog/1440.-36.2560.1057/0.23.1440.827@1440.-36.2560.1057" timestamp="1603012079971" />
     <state x="1557" y="177" width="896" height="678" key="run.anything.popup" timestamp="1602969014702">
       <screen x="1440" y="-36" width="2560" height="1057" />
