@@ -89,10 +89,12 @@ let num = 0;
 while (num++ <= 50) {
     if (num % 3 != 0 && num % 5 != 0) {
         document.writeln(num);
-    } else {
-        if (num % 3 == 0 && num % 5 == 0) document.writeln('JavaScript');
-        if (num % 3 == 0) document.writeln('Java');
-        if (num % 5 == 0) document.writeln('Script');
+    } else if (num % 3 == 0 && num % 5 == 0) {
+        document.writeln('JavaScript');
+    } else if (num % 3 == 0) {
+        document.writeln('Java');
+    } else if (num % 5 == 0) {
+        document.writeln('Script');
     }
 }
 
